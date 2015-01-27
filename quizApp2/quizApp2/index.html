@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quiz Time!</title>
+    <link href='http://fonts.googleapis.com/css?family=Cabin|Pacifico' rel='stylesheet' type='text/css'>
+    <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 id="header">Quiz Time!</h1>
+    <div id="quiz-container">
+        <div id="quiz-top">
+            <h3 id="questionNum"></h3>
+        </div>
+        <div id="quiz-middle">
+            <input type="button" id="btn1" value="Begin Quiz!" onclick="makeQuiz(); ran(); createQuiz()" />
+        </div>
+        <div id="quiz-bottom">
+            <input type="button" id="mainBtn" class="btn1" value="Add Question" onclick="newQuestion()" />
+            <input type="button" id="mainBtn" class="btn1" value="Remove Question" onclick="removeQuestionPage()"  />
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

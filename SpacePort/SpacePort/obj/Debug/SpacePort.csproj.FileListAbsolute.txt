@@ -1,0 +1,6 @@
+C:\Projects\SpacePort\SpacePort\bin\SpacePort.dll.config
+C:\Projects\SpacePort\SpacePort\bin\SpacePort.dll
+C:\Projects\SpacePort\SpacePort\bin\SpacePort.pdb
+C:\Projects\SpacePort\SpacePort\obj\Debug\SpacePort.csprojResolveAssemblyReference.cache
+C:\Projects\SpacePort\SpacePort\obj\Debug\SpacePort.dll
+C:\Projects\SpacePort\SpacePort\obj\Debug\SpacePort.pdb

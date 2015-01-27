@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quizApp2", "quizApp2\quizApp2.csproj", "{C80D7B2F-7088-479D-B121-4564225EFFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C80D7B2F-7088-479D-B121-4564225EFFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80D7B2F-7088-479D-B121-4564225EFFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80D7B2F-7088-479D-B121-4564225EFFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80D7B2F-7088-479D-B121-4564225EFFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

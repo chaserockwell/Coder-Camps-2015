@@ -1,0 +1,372 @@
+
+#green {
+  box-shadow:
+    0 0 0 1em green,
+    0 1em 0 1em green,
+    -2.5em 1.5em 0 .5em green,
+    2.5em 1.5em 0 .5em green,
+    -3em -3em 0 0 green,
+    3em -3em 0 0 green,
+    -2em -2em 0 0 green,
+    2em -2em 0 0 green,
+    -3em -1em 0 0 green,
+    -2em -1em 0 0 green,
+    2em -1em 0 0 green,
+    3em -1em 0 0 green,
+    -4em 0 0 0 green,
+    -3em 0 0 0 green,
+    3em 0 0 0 green,
+    4em 0 0 0 green,
+    -5em 1em 0 0 green,
+    -4em 1em 0 0 green,
+    4em 1em 0 0 green,
+    5em 1em 0 0 green,
+    -5em 2em 0 0 green,
+    5em 2em 0 0 green,
+    -5em 3em 0 0 green,
+    -3em 3em 0 0 green,
+    3em 3em 0 0 green,
+    5em 3em 0 0 green,
+    -2em 4em 0 0 green,
+    -1em 4em 0 0 green,
+    1em 4em 0 0 green,
+    2em 4em 0 0 green;
+
+    background: green;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#blue {
+  box-shadow:
+    0 0 0 1em blue,
+    0 1em 0 1em blue,
+    -2.5em 1.5em 0 .5em blue,
+    2.5em 1.5em 0 .5em blue,
+    -3em -3em 0 0 blue,
+    3em -3em 0 0 blue,
+    -2em -2em 0 0 blue,
+    2em -2em 0 0 blue,
+    -3em -1em 0 0 blue,
+    -2em -1em 0 0 blue,
+    2em -1em 0 0 blue,
+    3em -1em 0 0 blue,
+    -4em 0 0 0 blue,
+    -3em 0 0 0 blue,
+    3em 0 0 0 blue,
+    4em 0 0 0 blue,
+    -5em 1em 0 0 blue,
+    -4em 1em 0 0 blue,
+    4em 1em 0 0 blue,
+    5em 1em 0 0 blue,
+    -5em 2em 0 0 blue,
+    5em 2em 0 0 blue,
+    -5em 3em 0 0 blue,
+    -3em 3em 0 0 blue,
+    3em 3em 0 0 blue,
+    5em 3em 0 0 blue,
+    -2em 4em 0 0 blue,
+    -1em 4em 0 0 blue,
+    1em 4em 0 0 blue,
+    2em 4em 0 0 blue;
+
+    background: blue;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#yellow {
+  box-shadow:
+    0 0 0 1em yellow,
+    0 1em 0 1em yellow,
+    -2.5em 1.5em 0 .5em yellow,
+    2.5em 1.5em 0 .5em yellow,
+    -3em -3em 0 0 yellow,
+    3em -3em 0 0 yellow,
+    -2em -2em 0 0 yellow,
+    2em -2em 0 0 yellow,
+    -3em -1em 0 0 yellow,
+    -2em -1em 0 0 yellow,
+    2em -1em 0 0 yellow,
+    3em -1em 0 0 yellow,
+    -4em 0 0 0 yellow,
+    -3em 0 0 0 yellow,
+    3em 0 0 0 yellow,
+    4em 0 0 0 yellow,
+    -5em 1em 0 0 yellow,
+    -4em 1em 0 0 yellow,
+    4em 1em 0 0 yellow,
+    5em 1em 0 0 yellow,
+    -5em 2em 0 0 yellow,
+    5em 2em 0 0 yellow,
+    -5em 3em 0 0 yellow,
+    -3em 3em 0 0 yellow,
+    3em 3em 0 0 yellow,
+    5em 3em 0 0 yellow,
+    -2em 4em 0 0 yellow,
+    -1em 4em 0 0 yellow,
+    1em 4em 0 0 yellow,
+    2em 4em 0 0 yellow;
+
+    background: yellow;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#black {
+  box-shadow:
+    0 0 0 1em black,
+    0 1em 0 1em black,
+    -2.5em 1.5em 0 .5em black,
+    2.5em 1.5em 0 .5em black,
+    -3em -3em 0 0 black,
+    3em -3em 0 0 black,
+    -2em -2em 0 0 black,
+    2em -2em 0 0 black,
+    -3em -1em 0 0 black,
+    -2em -1em 0 0 black,
+    2em -1em 0 0 black,
+    3em -1em 0 0 black,
+    -4em 0 0 0 black,
+    -3em 0 0 0 black,
+    3em 0 0 0 black,
+    4em 0 0 0 black,
+    -5em 1em 0 0 black,
+    -4em 1em 0 0 black,
+    4em 1em 0 0 black,
+    5em 1em 0 0 black,
+    -5em 2em 0 0 black,
+    5em 2em 0 0 black,
+    -5em 3em 0 0 black,
+    -3em 3em 0 0 black,
+    3em 3em 0 0 black,
+    5em 3em 0 0 black,
+    -2em 4em 0 0 black,
+    -1em 4em 0 0 black,
+    1em 4em 0 0 black,
+    2em 4em 0 0 black;
+
+    background: black;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#red {
+  box-shadow:
+    0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#purple {
+  box-shadow:
+    0 0 0 1em purple,
+    0 1em 0 1em purple,
+    -2.5em 1.5em 0 .5em purple,
+    2.5em 1.5em 0 .5em purple,
+    -3em -3em 0 0 purple,
+    3em -3em 0 0 purple,
+    -2em -2em 0 0 purple,
+    2em -2em 0 0 purple,
+    -3em -1em 0 0 purple,
+    -2em -1em 0 0 purple,
+    2em -1em 0 0 purple,
+    3em -1em 0 0 purple,
+    -4em 0 0 0 purple,
+    -3em 0 0 0 purple,
+    3em 0 0 0 purple,
+    4em 0 0 0 purple,
+    -5em 1em 0 0 purple,
+    -4em 1em 0 0 purple,
+    4em 1em 0 0 purple,
+    5em 1em 0 0 purple,
+    -5em 2em 0 0 purple,
+    5em 2em 0 0 purple,
+    -5em 3em 0 0 purple,
+    -3em 3em 0 0 purple,
+    3em 3em 0 0 purple,
+    5em 3em 0 0 purple,
+    -2em 4em 0 0 purple,
+    -1em 4em 0 0 purple,
+    1em 4em 0 0 purple,
+    2em 4em 0 0 purple;
+
+    background: purple;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#orange {
+  box-shadow:
+    0 0 0 1em orange,
+    0 1em 0 1em orange,
+    -2.5em 1.5em 0 .5em orange,
+    2.5em 1.5em 0 .5em orange,
+    -3em -3em 0 0 orange,
+    3em -3em 0 0 orange,
+    -2em -2em 0 0 orange,
+    2em -2em 0 0 orange,
+    -3em -1em 0 0 orange,
+    -2em -1em 0 0 orange,
+    2em -1em 0 0 orange,
+    3em -1em 0 0 orange,
+    -4em 0 0 0 orange,
+    -3em 0 0 0 orange,
+    3em 0 0 0 orange,
+    4em 0 0 0 orange,
+    -5em 1em 0 0 orange,
+    -4em 1em 0 0 orange,
+    4em 1em 0 0 orange,
+    5em 1em 0 0 orange,
+    -5em 2em 0 0 orange,
+    5em 2em 0 0 orange,
+    -5em 3em 0 0 orange,
+    -3em 3em 0 0 orange,
+    3em 3em 0 0 orange,
+    5em 3em 0 0 orange,
+    -2em 4em 0 0 orange,
+    -1em 4em 0 0 orange,
+    1em 4em 0 0 orange,
+    2em 4em 0 0 orange;
+
+    background: orange;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+#white {
+  box-shadow:
+    0 0 0 1em white,
+    0 1em 0 1em white,
+    -2.5em 1.5em 0 .5em white,
+    2.5em 1.5em 0 .5em white,
+    -3em -3em 0 0 white,
+    3em -3em 0 0 white,
+    -2em -2em 0 0 white,
+    2em -2em 0 0 white,
+    -3em -1em 0 0 white,
+    -2em -1em 0 0 white,
+    2em -1em 0 0 white,
+    3em -1em 0 0 white,
+    -4em 0 0 0 white,
+    -3em 0 0 0 white,
+    3em 0 0 0 white,
+    4em 0 0 0 white,
+    -5em 1em 0 0 white,
+    -4em 1em 0 0 white,
+    4em 1em 0 0 white,
+    5em 1em 0 0 white,
+    -5em 2em 0 0 white,
+    5em 2em 0 0 white,
+    -5em 3em 0 0 white,
+    -3em 3em 0 0 white,
+    3em 3em 0 0 white,
+    5em 3em 0 0 white,
+    -2em 4em 0 0 white,
+    -1em 4em 0 0 white,
+    1em 4em 0 0 white,
+    2em 4em 0 0 white;
+
+    background: white;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 20% auto 0;
+  }
+
+.col-md-4 {
+    height: 200px;
+}
+
+#submit {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -5%;
+}
+
+.ed {
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+#edit {
+    
+}
+
+#delete {
+    background: hsl(0, 65%, 36%);
+    margin-left: .5%;
+}
+
+.form2 {
+    margin-top: 15%;
+}
+
+#drop {
+    margin-top: 10.75%;
+}
+
+#form1 {
+    margin-left: 50%;
+}
+
+.nameInput {
+    text-align: center;
+}
+
+.dockDiv {
+    margin-bottom: 3%;
+}

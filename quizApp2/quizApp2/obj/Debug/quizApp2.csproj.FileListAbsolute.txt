@@ -1,0 +1,6 @@
+C:\Projects\quizApp2\quizApp2\bin\quizApp2.dll.config
+C:\Projects\quizApp2\quizApp2\bin\quizApp2.dll
+C:\Projects\quizApp2\quizApp2\bin\quizApp2.pdb
+C:\Projects\quizApp2\quizApp2\obj\Debug\quizApp2.csprojResolveAssemblyReference.cache
+C:\Projects\quizApp2\quizApp2\obj\Debug\quizApp2.dll
+C:\Projects\quizApp2\quizApp2\obj\Debug\quizApp2.pdb
