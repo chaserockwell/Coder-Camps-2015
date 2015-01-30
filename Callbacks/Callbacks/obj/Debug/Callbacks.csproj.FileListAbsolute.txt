@@ -1,6 +1,0 @@
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\bin\Callbacks.dll.config
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\bin\Callbacks.dll
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\bin\Callbacks.pdb
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\obj\Debug\Callbacks.csprojResolveAssemblyReference.cache
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\obj\Debug\Callbacks.dll
-C:\Projects\CoderCamps2015-exercises\Callbacks\Callbacks\obj\Debug\Callbacks.pdb
