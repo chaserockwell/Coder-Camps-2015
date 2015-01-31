@@ -1,0 +1,24 @@
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\bin\Chirper Chat.dll.config
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\bin\Chirper Chat.dll
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\bin\Chirper Chat.pdb
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.dll
+\\psf\home\documents\visual studio 2013\Projects\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.pdb
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\bin\Chirper Chat.dll.config
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\bin\Chirper Chat.dll
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\bin\Chirper Chat.pdb
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.dll
+C:\Projects\Chirp App\Chirper Chat\Chirper Chat\obj\Debug\Chirper Chat.pdb
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.dll.config
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.dll
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.pdb
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.dll
+C:\Projects\ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.pdb
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.dll.config
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.dll
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.pdb
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.dll
+C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.pdb
