@@ -9,6 +9,11 @@ html, body {
     padding-top: 25px;
 }
 
+.chirp-h4 {
+    margin-bottom: -15px;
+}
+
+
 #landing {
     
     background-image: url('http://fc07.deviantart.net/fs71/f/2014/141/9/4/_minimal_flat__default_windows_8_1_wallpaper__4k__by_dakoder-d7j7i5a.jpg');

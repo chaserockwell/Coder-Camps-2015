@@ -22,10 +22,10 @@ function Person(name, handle, city, url) {
 };
 
 // Chirps Constructor
-function Chirp(chirp, timeStamp, handle) {
-    this.chirps = chirp;
-    this.date = timeStamp;
-    this.username = handle;
+function Chirp(chirps, username) {
+    this.chirps = chirps;
+    this.date = moment();
+    this.username = username;
 };
 
 // Profile Constructor
@@ -45,20 +45,6 @@ function Profile(name, handle, city, url) {
  * Chirp Display DIV = chirp-display
  * Edit Pencil =
  */
-
-//Function Edit Profile
-function editProfile() {
-
-};
-
-//Function Post Your Chirps
-function postChirps() {
-
-};
-
-
-
-
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -179,8 +165,8 @@ displayPerson = function () {
         newPerson.__proto__ = { id: i };
         people.push(newPerson);
 
-        $("#friend-render").append("<p class='text-center'>" + tempObj.name + "</p>");
-        $("#friend-render").append("<p class='text-center'>" + tempObj.username + "</p>");;
+        $("#friend-render").append("<h4 class='text-center'><strong>" + tempObj.username + "</strong></h4>");
+        $("#friend-render").append("<p class='text-center'>" + tempObj.name + "</p>");;
         $("#friend-render").append("<p class='text-center'>" + tempObj.city + "</p>");
         $("#friend-render").append("<a href='#'><i class='glyphicon glyphicon-trash' onclick='deleteFriend(" + i + ")'></i></a><hr>")
     }
@@ -283,18 +269,25 @@ displayChirps = function () {
     chirps.reverse();
     for (var i in chirps) {
 
-        var tempTwt = chirps[i];
-        var newChirp = new Chirp(tempTwt.chirps, tempTwt.date, tempTwt.username);
+        var tempChirp = chirps[i];
+        var tempTime = moment(tempChirp.date).fromNow();
+        console.log(tempTime);
+
+        var newChirp = new Chirp(tempChirp.chirps, tempChirp.username);
 
         newChirp.__proto__ = { id: i };
 
         chirps.push(newChirp);
 
-        $("#chirp-display").append("<p><strong><h4><a href='#' id='chirp-display' data-toggle='modal' data-target='#myModal2' class='panel-body' onclick='retrieveFriendChirps(" + i + ")'>" + tempTwt.username + "</a></h4></strong></p>")
-        $("#chirp-display").append("<p><em><h4 class='chirpP'>" + tempTwt.chirps + "</h4></em></p>")
-        $("#chirp-display").append("<p><h6>" + tempTwt.date + "</h6><a href='#'><i class='glyphicon glyphicon-trash pull-right' onclick='deleteChirp(" + i + ")'></i></a></p></br><hr>")
+        $("#chirp-display").append("<p><strong><h4 class='chirp-h4' ><a href='#' id='chirp-display' data-toggle='modal' data-target='#myModal2' class='panel-body' onclick='retrieveFriendChirps(" + i + ")'>" + tempChirp.username + "</a></h4></strong></p>")
+        $("#chirp-display").append("<p><em><h4 class='chirpP'>" + tempChirp.chirps + "</h4></em></p>")
+        $("#chirp-display").append("<p><h6>" + tempTime + "</h6><a href='#'><i class='glyphicon glyphicon-trash pull-right' onclick='deleteChirp(" + i + ")'></i></a></p></br><hr>")
     }
 }
+
+
+
+
 var friendChirps = [];
 //// Friend modal feed
 var retrieveFriendChirps = function (itemIndexClicked) {
@@ -330,23 +323,23 @@ displayFriendChirps = function () {
     friendChirps.reverse();
     for (var i in friendChirps) {
 
-        var tempTwt = friendChirps[i];
-        var newChirp = new Chirp(tempTwt.chirps, tempTwt.date, tempTwt.username);
+        var tempChirp = friendChirps[i];
+        var newChirp = new Chirp(tempChirp.chirps, tempChirp.username);
 
         newChirp.__proto__ = { id: i };
 
         friendChirps.push(newChirp);
 
-        $("#modal-chirp").append("<p><strong><h4><a href='#' id='chirp-display' data-toggle='modal' data-target='#myModal2' class='panel-body' onclick='retrieveFriendChirps(" + i + ")'>" + tempTwt.username + "</a></h4></strong></p>")
-        $("#modal-chirp").append("<p><em><h4 class='chirpP'>" + tempTwt.chirps + "</h4></em></p>")
-        $("#modal-chirp").append("<p><h6>" + tempTwt.date + "</h6></p></br><hr>")
+        $("#modal-chirp").append("<p><strong><h4><a href='#' id='chirp-display' data-toggle='modal' data-target='#myModal2' class='panel-body' onclick='retrieveFriendChirps(" + i + ")'>" + tempChirp.username + "</a></h4></strong></p>")
+        $("#modal-chirp").append("<p><em><h4 class='chirpP'>" + tempChirp.chirps + "</h4></em></p>")
+        $("#modal-chirp").append("<p><h6>" + moment(tempChirp.date).fromNow() + "</h6></p></br><hr>")
         
         
         $('#friend-handle').empty();
         $('#friend-name').empty();
         $('#friend-city').empty();
         for (var i in people) {
-            if (tempTwt.username === people[i].username) {
+            if (tempChirp.username === people[i].username) {
                 var person = people[i];
                 $('#friend-handle').append('<strong>' + person.username + '</strong>');
                 $('#friend-name').append(person.name);
@@ -378,9 +371,10 @@ function onKeyPress(e) {
 
 createChirp = function () {
     var chirpValue = $('#chirp-input').val();
-    var date = moment().format("MMMM Do YYYY, h:mm a");
+    //var date = moment().format("MMMM Do YYYY, h:mm a");
     var handle = profile.handle;
-    var newChirp = new Chirp(chirpValue, date, handle);
+    var newChirp = new Chirp(chirpValue, handle);
+    console.log(newChirp.date);
     postChirp(newChirp);
     $('#chirp-input').val('');
 }

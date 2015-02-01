@@ -22,3 +22,9 @@ C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\bin\Chirper Chat.pdb
 C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
 C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.dll
 C:\Projects\Actual ChirpTime\ChirperTime v1.3\Chirper Chat\obj\Debug\Chirper Chat.pdb
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\bin\Chirper Chat.dll.config
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\bin\Chirper Chat.dll
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\bin\Chirper Chat.pdb
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\obj\Debug\Chirper Chat.csprojResolveAssemblyReference.cache
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\obj\Debug\Chirper Chat.dll
+C:\Users\chaserockwell\Documents\New Safe folder for chirptime\ChirperTime v2.0\Chirper Chat\obj\Debug\Chirper Chat.pdb
