@@ -1,0 +1,93 @@
+﻿body, select, .modal-content {
+    background: hsl(240, 1%, 14%);
+    color: hsla(0, 0%, 90%, 0.90);
+    font-family: 'Poiret One', cursive;
+}
+
+.icon, .color {
+    width: 50%;
+}
+
+.drop, .crtBtn {
+    margin-top: 1em;
+}
+
+.crtBtn, .modalBtn {
+    border-radius: 0;
+}
+
+.modalBtn {
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+
+.inputs {
+    margin-bottom: 2em;
+}
+
+.modal-content {
+    height: 10em;
+    padding: 1em;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 8em;
+    margin: 0 auto .25em;
+    margin-top: .25em;
+}
+
+.heading {
+    margin-top: .5em;
+}
+
+select {
+    width: 40%;
+    height: 2em;
+    border: 1px solid hsla(0, 0%, 90%, 0.90);
+}
+
+
+.box-container {
+    margin-top: 5em auto;
+}
+
+.box {
+    height: 11em;
+    text-align: center;
+}
+
+    .box:hover {
+        cursor: pointer;
+        box-shadow: inset 0 0 3px 3px;
+    }
+
+.red {
+    background: hsl(0, 52%, 44%);
+}
+
+.orange {
+    background: hsl(40, 62%, 48%);
+}
+
+.yellow {
+    background: hsl(58, 65%, 55%);
+}
+
+.green {
+    background: hsl(115, 37%, 49%);
+}
+
+.blue {
+    background: hsl(191, 41%, 48%);
+}
+
+.purple {
+    background: hsl(271, 53%, 56%);
+}
+
+.glyphicon {
+    font-size: 3em;
+    margin-top: 1.25em;
+}

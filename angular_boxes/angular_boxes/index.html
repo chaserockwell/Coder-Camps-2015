@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="boxes">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>Boxes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+    <!--script src="js/less-1.3.3.min.js"></script-->
+    <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/animate.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
+
+    <script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" ng-controller="appCtrl">
+        <div class="row clearfix">
+            
+            <div class="col-md-12 heading">
+                <div class="col-md-6">
+                    <h1 class="header">Boxes</h1>
+                </div>
+                <div class="col-md-6 inputs">
+                        <div class="drop">
+                            <label>Choose Color</label><br />
+                            <select ng-model="colorPicker"
+                                    ng-options="color as color.label for color in colors"></select>
+                        </div>
+                        <div class="drop">
+                            <label>Choose Icon</label><br />
+                            <select ng-model="iconPicker"
+                                    ng-options="icon as icon.label for icon in icons"></select>
+                        </div>
+                        <input type="button" class="btn btn-default crtBtn" ng-click="addBox()" value="CREATE" />
+                </div>
+                
+            </div>
+            <div class="box-container col-md-12">
+                <div ng-repeat="box in boxes" ng-click="getIndex($index)" id="($index)" data-toggle="modal" data-target=".bs-example-modal-sm" class="{{box.color}} animated flipInY box col-md-2">
+                    <span class="glyphicon glyphicon-{{box.icon}}"></span>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <label>Choose Color</label>
+                    <select ng-model="colorPickerModal"
+                            ng-options="color as color.label for color in colors"></select><br />
+                    <label>Choose Icon</label>
+                    <select ng-model="iconPickerModal"
+                            ng-options="icon as icon.label for icon in icons"></select><br />
+                    <input type="button" class="btn btn-default modalBtn" ng-click="updateBox()" value="UPDATE" data-dismiss="modal"/>
+                    <input type="button" class="btn btn-default modalBtn" ng-click="deleteBox()" value="DELETE" data-dismiss="modal"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

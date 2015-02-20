@@ -1,0 +1,6 @@
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\bin\angular_boxes.dll.config
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\bin\angular_boxes.dll
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\bin\angular_boxes.pdb
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\obj\Debug\angular_boxes.csprojResolveAssemblyReference.cache
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\obj\Debug\angular_boxes.dll
+C:\Projects\CoderCamps2015-exercises\angular_boxes\angular_boxes\obj\Debug\angular_boxes.pdb
