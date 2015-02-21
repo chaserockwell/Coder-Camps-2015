@@ -1,0 +1,14 @@
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\KidChores.Datea.dll.config
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\KidChores.Datea.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\KidChores.Datea.pdb
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\EntityFramework.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\KidChores.Data.Models.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\KidChores.Data.Models.pdb
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\EntityFramework.xml
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\obj\Debug\KidChores.Data.csprojResolveAssemblyReference.cache
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\obj\Debug\KidChores.Datea.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\obj\Debug\KidChores.Datea.pdb
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\obj\Debug\KidChores.Data.Migrations.INITIAL.resources
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Datea\obj\Debug\KidChores.Data.csproj.GenerateResource.Cache

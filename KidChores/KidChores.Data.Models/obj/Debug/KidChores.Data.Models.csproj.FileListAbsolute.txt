@@ -1,0 +1,10 @@
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\KidChores.Data.Models.dll.config
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\KidChores.Data.Models.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\KidChores.Data.Models.pdb
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\EntityFramework.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\EntityFramework.xml
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\obj\Debug\KidChores.Data.Models.csprojResolveAssemblyReference.cache
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\obj\Debug\KidChores.Data.Models.dll
+C:\Projects\CoderCamps2015-exercises\C#\KidChores\KidChores.Data.Models\obj\Debug\KidChores.Data.Models.pdb

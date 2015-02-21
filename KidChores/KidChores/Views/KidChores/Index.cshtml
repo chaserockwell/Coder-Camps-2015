@@ -1,0 +1,56 @@
+﻿@model IEnumerable<KidChores.Data.Models.KidChore>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="index-body">
+    <div class="panel">
+        <div class="panel-heading">
+            <div>
+                <h2 class="header">Chore Chart</h2>
+            </div>
+            <div class="md-col-10">
+                @Html.ActionLink("< Kids", "Index", "Kids")
+                @Html.ActionLink("New Kid", "Create", "Kids", null, new { @class = "btn btn-default index-left-btn" })
+                @Html.ActionLink("Assign a Chore", "Create", "KidChores", null, new { @class = "btn btn-default index-center-btn" })
+                @Html.ActionLink("New Chore", "Create", "Chores", null, new { @class = "btn btn-default index-right-btn" })
+                @Html.ActionLink("Chores >", "Index", "Chores")
+            </div>
+        </div>
+        <hr style="width: 75%" />
+        <div class="panel-body">
+            <table class="table table-hover">
+                <tr>
+                    <th>
+                        Chore
+                    </th>
+                    <th>
+                        Kid Assigned
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Chore.ChoreName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Kid.FirstName)
+                            @Html.DisplayFor(modelItem => item.Kid.LastName)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.KidChoreId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.KidChoreId })
+                        </td>
+                    </tr>
+                }
+
+
+            </table>
+        </div>
+    </div>
+</div>

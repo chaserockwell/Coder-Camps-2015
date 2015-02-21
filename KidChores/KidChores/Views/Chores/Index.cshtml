@@ -1,0 +1,48 @@
+﻿@model IEnumerable<KidChores.Data.Models.Chore>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="index-body">
+    <div class="panel">
+        <div class="panel-heading">
+            <div>
+                <h2 class="header">Chores</h2>
+            </div>
+                <div class="md-col-10">
+                    @Html.ActionLink("< Home", "Index", "KidChores")
+                    @Html.ActionLink("Assign Chore", "Create", "KidChores", null, new { @class = "btn btn-default index-left-btn" })
+                    @Html.ActionLink("New Chore", "Create", "Chores", null, new { @class = "btn btn-default index-center-btn" })
+                    @Html.ActionLink("New Kid", "Create", "Kids", null, new { @class = "btn btn-default index-right-btn" })
+                    @Html.ActionLink("Kids >", "Index", "Kids")
+                </div>
+            </div>
+            <hr style="width: 75%" />
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <tr>
+                        <th>
+                            Chore
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ChoreName)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.ChoreId }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.ChoreId })
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>

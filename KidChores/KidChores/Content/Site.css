@@ -1,0 +1,91 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.index-body {
+    font-family: 'Amatic SC', cursive;
+    border: 10px ridge hsl(45, 88%, 60%);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.index-left-btn,
+.index-right-btn,
+.index-center-btn,
+.crt-btn {
+    width: 20%;
+    font-size: 1em;
+    background: none;
+    border: 2px solid whitesmoke;
+    margin-top: .5em;
+    color: whitesmoke;
+}
+
+.crt-btn {
+    margin-left: 39%;
+    margin-right: 39%;
+}
+
+.index-center-btn {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.index-left-btn {
+    margin-left: 6.5%;
+    margin-right: 3%;
+}
+
+.index-right-btn {
+    margin-right: 6.5%;
+    margin-left: 3%;
+}
+
+.panel-heading {
+    font-weight: 700;
+}
+
+.panel{
+    background-color: hsl(240, 3%, 18%);
+    font-size: 2em;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.panel,
+.panel-heading,
+.header {
+    color: whitesmoke;
+}
+
+.header {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+tr:hover {
+    color: hsl(240, 3%, 18%);
+}

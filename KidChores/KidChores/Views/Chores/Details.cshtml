@@ -1,0 +1,26 @@
+﻿@model KidChores.Data.Models.Chore
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Chore</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ChoreName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChoreName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ChoreId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
