@@ -1,0 +1,6 @@
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\bin\blogger.dll.config
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\bin\blogger.dll
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\bin\blogger.pdb
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\obj\Debug\blogger.csprojResolveAssemblyReference.cache
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\obj\Debug\blogger.dll
+C:\Projects\CoderCamps2015-exercises\blogger\blogger\obj\Debug\blogger.pdb

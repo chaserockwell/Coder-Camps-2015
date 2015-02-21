@@ -1,0 +1,46 @@
+﻿<div class="page-header">
+    <h1>Welcome to The Blog</h1>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#newPostModal">Post something new <span class="glyphicon glyphicon-pencil pencil"></span></button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="newPostModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">New Post</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Title:</label><br />
+                        <input type="text" class="input-sm" placeholder='"My day in Paradise"' ng-model="addTitle"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Summary:</label><br />
+                        <textarea class="input-lg summary" placeholder="200 Characters" maxlength="200" ng-model="addSummary"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Main Content:</label><br />
+                        <textarea class="input-lg mainContent" placeholder="Tell your story..." ng-model="addContent"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" ng-click="addPost()" data-dismiss="modal">Post!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-repeat="post in posts">
+    <a class="divLink" href="#/details">
+        <div class="panel panel-default homePost" id="$index" ng-click="getIndex($index)">
+            <div class="panel-heading">
+                <h3>{{post.title}}</h3>
+                <h6><em>{{post.timeStamp}}</em></h6>
+            </div>
+            <div class="panel-body">{{post.summary}}</div>
+        </div>
+    </a>
+</div>
